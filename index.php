@@ -53,13 +53,7 @@
                 <a href="">Link 2</a>
                 <a href="">Link 3</a>
             </div>  
-        </div>
-<<<<<<< HEAD
-    <div><h1>hesd</h1></div>
-=======
->>>>>>> cddcc40c8f630d5fd5ef56a9aa1036b4f469ca26
-    </div>
-</body>
+     </body>
 </html>
 
 
