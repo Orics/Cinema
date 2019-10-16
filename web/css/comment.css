@@ -1,0 +1,51 @@
+#comment{
+    text-align: center;
+    padding-top:1%;
+    color:white;
+    width : 100%;
+    height: 500px;
+    background-color:orangered;
+}
+.KM{ 
+    position: relative;
+    left: 2%;
+    margin:1%;
+    width: 14%;
+    height: 77%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+ 
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    opacity: 0.75;
+    display: none;
+}
+.BTNK
+{  
+position: absolute;
+   left: 35%;
+   top: 90%;
+   width: 30%;
+   height: 7%;
+   border-color: white;
+   color: white;
+   border-width: 1px;
+   background-color: transparent;
+   display: none;
+   
+
+}
+.KM:hover  .BTNK  {
+    display: inline;
+    background-color:orangered;
+}
+.KM:hover .cover  {
+    display: block;
+}
