@@ -1,4 +1,4 @@
-.MENU{
+.menu{
     background-color: rgb(0,0,0);
     width: 100%;
     height: 58px;
@@ -11,7 +11,7 @@
     height: 100%;
     text-align: center;
 }
-.MENU_BTN{
+.menu_btn{
     width: 100%;
     height: 100%;
     background-color: black;
