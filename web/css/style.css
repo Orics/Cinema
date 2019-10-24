@@ -33,7 +33,7 @@
     border-color: transparent;
     background-image:url("../image/search_filled_50px.png");
 }
-.user{
+.img_user{
     position: absolute;
     top : 44%;
     left:86%;
@@ -46,7 +46,7 @@
     border-color: transparent;
     background-image:url("../image/user.png");
 }
-.text{
+#login_btn{
     position: absolute;
     top :26%;
     left:88%;
@@ -55,3 +55,36 @@
     color:orangered;
 }
 
+.container {
+    display: none;
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    z-index: 1;
+}
+.container   input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container input[type=submit] {
+    background-color: orangered;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container input[type=submit]:hover {
+    background-color: orangered;
+}

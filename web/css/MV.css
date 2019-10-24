@@ -1,0 +1,34 @@
+.MVN{
+    position: absolute;
+    color:white;
+    top: 30%;
+    text-align: center;
+    left:70%;
+    width:18%;
+    height: 42%;
+    background-color:orangered;
+    opacity: 0.9;
+}
+.BTMVN
+{  
+    position: absolute;
+   left: 35%;
+   top: 80%;
+   width: 120px;
+   height: 40px;
+   border-color: white;
+   color: white;
+   border-width: 2px;
+   background-color: transparent;
+}
+.CP
+{  
+    position: absolute;
+   padding-left:15%;
+   top: 20%;
+   border-color: white;
+   color: white;
+   border-width: 2px;
+   background-color: transparent;
+}
+

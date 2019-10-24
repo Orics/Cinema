@@ -1,0 +1,61 @@
+#step
+{
+width: 100%;
+ position: relative;
+ padding-left: 25px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+.img{
+    position: relative;
+    left: 30%;
+}
+.step1{
+    position: relative;
+    text-align: center;
+    margin:1%;
+    color: orangered;
+    background-color: white;
+   
+}
+
+.PXT{ 
+    position: relative;
+    left: 3.5%;
+    margin:2%;
+    width: 15%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+ 
+}
+.cover{
+    width: 100%;
+    color: white;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+}
+.BTNXT
+{  
+    position: absolute;
+   left: 35%;
+   top: 70%;
+   width: 30%;
+   height: 10%;
+   border-color: white;
+   color: white;
+   border-width: 2px;
+   background-color: transparent;
+   display: none;
+
+}
+.PXT:hover  .BTNXT  {
+    display: inline;
+    background-color:orangered;
+}
+.PXT:hover  .cover  {
+    display: block;
+}

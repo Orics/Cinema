@@ -8,33 +8,64 @@
     <link rel='stylesheet' type='text/css' href='./CSS/slider.css'>
     <link rel='stylesheet' type='text/css' href='./CSS/content.css'>
     <link rel='stylesheet' type='text/css' href='./CSS/comment.css'>
-    <link rel='stylesheet' type='text/css' href='./CSS/cinema.css'>
+    <link rel='stylesheet' type='text/css' href='./CSS/MV.css'>
+    <link rel='stylesheet' type='text/css' href='./CSS/footer.css'>
 </head>
 <body>
     
+    <div class="container">
+        <h2>Đăng kí tài khoản GALAXYCINEMA </h2>
+        <form action="/action_page.php">
+            <label for="fname">Họ Và Tên</label>
+            <input type="text" id="name" name="name" placeholder="Nhập họ và tên...">
+
+            <label for="lname">Email</label>
+            <input type="text" id="email" name="email" placeholder="Nhập email...">
+
+            <label for="country">Số Điện Thoại</label>
+            <input type="text" id="phone" name="phone" placeholder="Nhập số điện thoại...">
+
+            <label for="address">Địa Chỉ</label>
+            <input type="text" id="address" name="address" placeholder="Nhập địa chỉ...">
+
+            <label for="address">Mật khẩu</label>
+            <input type="text" id="pass" name="pass" placeholder="Nhập mật khẩu...">
+
+            <label for="address">Nhập lại mật khẩu </label>
+            <input type="text" id="pass" name="pass" placeholder="Nhập lại mật khẩu...">
+
+            <input type="submit" value="Submit">
+        </form>
+	</div>
+    
     <div id = 'top'>
         <img    class="logo"  src="https://www.galaxycine.vn/website/images/galaxy-logo.png">
-        <form> 
-        <input type="button"  class = "user" > 
-        <h3 class = "text" > Đăng nhập </h3>
-        </form>
+        <div type="button"  class = "img_user" > </div>
+        <button id = "login_btn" > Đăng nhập </button>
+        <script>
+            // document.document.getElementsById("login_btn").addEventListener("",A );
+            // function A() {
+            // //  document.getElementByClass("container").style.display = "block";
+            //     alert("Hello! I am an alert box!!");
+            // }
+        </script>
         <form>
              <input  type="text"   class="search_textfield" placeholder="Tìm tên phim, diễn viên...">
             <input type="button"  class = "search_button" >  
         </form>
     </div>
 
-    <div class = 'menu'>
+    <div class = 'MENU'>
         
         <div class="dropdown" style="float: left;margin-left: 15%">
-            <button class = "menu-button"> MUA VÉ </button>
+            <button class = "MENU_BTN"> MUA VÉ </button>
             <div class="dropdown-content" style="left:0">
             </div>  
         </div>
         <div class="partition" style="float: left"></div>
 
         <div class="dropdown" style="float: left">
-            <button class = "menu-button"> PHIM  ▼  </button>
+            <button class = "MENU_BTN"> PHIM  ▼  </button>
             <div class="dropdown-content" style="left:0">
                 <a href="">ĐANG CHIẾU</a>
                 <a href="">SẮP CHIẾU</a>
@@ -43,7 +74,7 @@
         <div class="partition" style="float: left"></div>
 
         <div class="dropdown" style="float: left">
-            <button class = "menu-button"> GÓC ĐIỆN ẢNH ▼ </button>
+            <button class = "MENU_BTN"> GÓC ĐIỆN ẢNH ▼ </button>
             <div class="dropdown-content" style="left:0">
                 <a href="">THỂ LOẠI PHIM</a>
                 <a href="">DIỄN VIÊN</a>
@@ -52,7 +83,7 @@
         </div>
         <div class="partition" style="float: left"></div>
         <div class="dropdown" style="float: left">
-            <button class = "menu-button"> SỰ KIỆN ▼ </button>
+            <button class = "MENU_BTN"> SỰ KIỆN ▼ </button>
             <div class="dropdown-content" style="left:0">
                 <a href="">ƯU ĐÃI TUẦN</a>
                 <a href="">ƯU ĐÃI THÁNG</a>
@@ -63,21 +94,19 @@
 
 
         <div class="dropdown" style="float: left">
-            <button class = "menu-button">RẠP/GIÁ VÉ </button>
+            <button class = "MENU_BTN">RẠP/GIÁ VÉ </button>
             <div class="dropdown-content">
             </div>  
         </div>
         <div class="partition" style="float: left"></div>
 
         <div class="dropdown" style="float: left">
-            <button class = "menu-button">HỖ TRỢ </button>
+            <button class = "MENU_BTN">HỖ TRỢ </button>
             <div class="dropdown-content">
             </div>  
         </div>
-        <div class="partition" style="float: left"></div>
-
         <div class="dropdown" style="float: left">
-            <button class = "menu-button">THÀNH VIÊN </button>
+            <button class = "MENU_BTN">THÀNH VIÊN </button>
             <div class="dropdown-content">
             </div>  
         </div>
@@ -103,9 +132,69 @@
                 setTimeout(carousel, 5000); // Change image every 2 seconds
                 }
             </script>
-
     </div>  
+    <div class="MVN">
+            <div><h1><center>MUA VÉ NHANH<center> </h1></div>
+            <div class="CP">
+        <select>
+            <option value="0">chọn phim :</option>
+            <option value="1">MALEFICENT MISTRESS OF EVIL</option>
+            <option value="2">ĐÀN ÔNG SONG TỬ</option>
+            <option value="3">THẤT SƠN TÂM LINH</option>
+            <option value="4">CHUYỆN NGÀY MƯA Ở NEW YORK</option>
+            <option value="5">BIỆT ĐỘI BẤT HẢO</option>
+            <option value="6">JOKER</option>
+            <option value="7">LỜI TỪ BIỆT</option>
+        </select><BR><BR>
+        <select>
+            <option value="0">chọn RẠP :</option>
+            <option value="1">Rạp galaxy quận thủ đức</option>
+            <option value="2">Rạp galaxy quận tân bình </option>
+            <option value="3">Rạp galaxy quận gò vấp</option>
+            <option value="4">Rạp galaxy quận 1</option>
+            <option value="5">Rạp galaxy quận 2</option>
+            <option value="6">Rạp galaxy quận 3</option>
+            <option value="7">Rạp galaxy quận 4</option>
+            <option value="8">Rạp galaxy quận 5</option>
+            <option value="9">Rạp galaxy quận 6</option>
+            <option value="10">Rạp galaxy quận 7</option>
+            <option value="11">Rạp galaxy quận 8</option>
+            <option value="12">Rạp galaxy quận 9</option>
+            <option value="13">Rạp galaxy quận 10</option>
+            <option value="14">Rạp galaxy quận 11</option>
+            <option value="15">Rạp galaxy quận 12</option>
 
+        </select><BR><BR>
+        <select>
+            <option value="0">chọn ngày chiếu :</option>
+            <option value="1">ngày 1-12-2019</option>
+            <option value="2">ngày 2-12-2019</option>
+            <option value="3">ngày 3-12-2019</option>
+            <option value="4">ngày 4-12-2019</option>
+            <option value="5">ngày 5-12-2019</option>
+            <option value="6">ngày 6-12-2019</option>
+            <option value="7">ngày 7-12-2019</option>
+            <option value="8">ngày 8-12-2019</option>
+            <option value="9">ngày 9-12-2019</option>
+            <option value="10">ngày 10-12-2019</option>
+        </select><BR><BR>
+        <select>
+            <option value="0">chọn suất chiếu :</option>
+            <option value="1">8 giờ 30 phút </option>
+            <option value="2">10 giờ 30 phút</option>
+            <option value="3">12 giờ 30 phút</option>
+            <option value="4">14 giờ 30 phút</option>
+            <option value="5">16 giờ 30 phút</option>
+            <option value="6">18 giờ 30 phút</option>
+            <option value="7">20 giờ 30 phút</option>
+            <option value="8">22 giờ 30 phút</option>
+
+        </select><BR><BR><BR>
+        </div>
+        <button class="BTMVN">MUA VÉ</button>
+        </div>
+
+    
 
    <div id="CONTENT">
        <div><h1>PHIM HAY ĐANG KHỞI CHIẾU</h1></div>
@@ -169,7 +258,7 @@
 - Giá vé không áp dụng cho định dạng 3D và các phòng chiếu đặc biệt <br>
 - Không áp dụng đồng thời với các chương trình khuyến mãi khác của GALAXY và đối tác<br>
 (*) Ưu đãi 55.000 VND/ 1 vé 2D áp dụng tại các rạp còn lại.</div>
-            <button class="BTNK">Đã hiểu</button>
+            <button class="BTNKM">Đã hiểu</button>
         </div>
         <div class =KM style = "background-image: url('./image/km2.jpg'); float : left">
             <div class = "cover">Điều kiện áp dụng:<br><BR>
@@ -179,7 +268,7 @@
 - Giá vé không áp dụng cho định dạng 3D và các phòng chiếu đặc biệt <br>
 - Không áp dụng đồng thời với các chương trình khuyến mãi khác của GALAXY và đối tác<br>
 (*) Ưu đãi 55.000 VND/ 1 vé 2D áp dụng tại các rạp còn lại.</div>
-            <button class="BTNK">Đã hiểu</button>
+            <button class="BTNKM">Đã hiểu</button>
         </div>
         <div class =KM style = "background-image: url('./image/km3.jpg'); float : left">
             <div class = "cover">Điều kiện áp dụng:<br><BR>
@@ -189,7 +278,7 @@
 - Giá vé không áp dụng cho định dạng 3D và các phòng chiếu đặc biệt <br>
 - Không áp dụng đồng thời với các chương trình khuyến mãi khác của GALAXY và đối tác<br>
 (*) Ưu đãi 55.000 VND/ 1 vé 2D áp dụng tại các rạp còn lại.</div>
-            <button class="BTNK">Đã hiểu </button>
+            <button class="BTNKM">Đã hiểu </button>
         </div>
         <div class =KM style = "background-image: url('./image/km4.jpg'); float : left">
             <div class = "cover">Điều kiện áp dụng:<br><BR>
@@ -199,7 +288,7 @@
 - Giá vé không áp dụng cho định dạng 3D và các phòng chiếu đặc biệt <br>
 - Không áp dụng đồng thời với các chương trình khuyến mãi khác của GALAXY và đối tác<br>
 (*) Ưu đãi 55.000 VND/ 1 vé 2D áp dụng tại các rạp còn lại.</div>
-            <button class="BTNK">Đã hiểu</button>
+            <button class="BTNKM">Đã hiểu</button>
         </div>
         <div class =KM style = "background-image: url('./image/km5.jpg'); float : left">
             <div class = "cover">Điều kiện áp dụng:<br><BR>
@@ -209,7 +298,7 @@
 - Giá vé không áp dụng cho định dạng 3D và các phòng chiếu đặc biệt <br>
 - Không áp dụng đồng thời với các chương trình khuyến mãi khác của GALAXY và đối tác<br>
 (*) Ưu đãi 55.000 VND/ 1 vé 2D áp dụng tại các rạp còn lại.</div>    
-            <button class="BTNK">Đã hiểu</button>
+            <button class="BTNKM">Đã hiểu</button>
         </div>
         <div class =KM style = "background-image: url('./image/km6.jpg'); float : left"> 
             <div class = "cover">Điều kiện áp dụng:<br><BR>
@@ -220,7 +309,7 @@
 - Không áp dụng đồng thời với các chương trình khuyến mãi khác của GALAXY và đối tác<br>
 (*) Ưu đãi 55.000 VND/ 1 vé 2D áp dụng tại các rạp còn lại.
 </div>
-            <button class="BTNK">Đã hiểu </button>
+            <button class="BTNKM">Đã hiểu </button>
         </div>
     </div><br>
 
@@ -230,7 +319,9 @@
 Xem thêm tại: https://www.galaxycine.vn/</h4><br><br>
     </div>
 
-    <div id="cinema">
+   
+
+    <div id="footer">
   
         <div class =GT style = "float : left"> GIỚI THIỆU  
                 <div>➤VỀ CHÚNG TÔI</div>
@@ -243,9 +334,6 @@ Xem thêm tại: https://www.galaxycine.vn/</h4><br><br>
                 <div>➤BÌNH LUẬN PHIM</div>
                 <div>➤BLOG ĐIỆN ẢNH</div>
                 <div>➤PHIM HAY THÁNG</div>
-                   
-
-
         </div>	
         <div class =GT  style = "float : left"> HỖ TRỢ 
                 <div>➤GÓP Ý</div>
